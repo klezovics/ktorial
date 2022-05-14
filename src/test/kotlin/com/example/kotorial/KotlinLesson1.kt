@@ -31,6 +31,17 @@ class KotlinLesson1 {
         println(u.copy(age=18))
     }
 
+    @Test
+    fun `test associate`() {
+        val ns = listOf(10,20,30)
+        val m = mapOf(1 to 1)
+        println(ns.associate {
+            val sq = it*it
+            Pair(it, sq)
+        })
+        println(ns.associateWith { it*it })
+    }
+
     fun f(x: Any) =
         when (x) {
             1 -> "One"
