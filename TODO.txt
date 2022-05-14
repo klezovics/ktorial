@@ -3,6 +3,7 @@
  - val
  - Destructuring assignment
  - Arrays: creation/initialisation/methods
+ - Null safety. operator ?., operator ?:
 
 ## Operators
  - in, !in
@@ -32,6 +33,7 @@
  - Interfaces
  - Sealed classes
  - Data classes
+ - operator keyword
 
 ## Key classes
  - Pair
