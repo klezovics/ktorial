@@ -60,6 +60,11 @@
             <version>1.6.1</version>
             <type>pom</type>
         </dependency>
+        <dependency>
+            <groupId>io.zeko</groupId>
+            <artifactId>zeko-sql-builder</artifactId>
+            <version>1.4.0</version>
+        </dependency>
 
     </dependencies>
 

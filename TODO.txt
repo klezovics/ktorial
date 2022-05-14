@@ -1,0 +1,62 @@
+## Variables
+ - var
+ - val
+ - Destructuring assignment
+ - Arrays: creation/initialisation/methods
+
+## Operators
+ - in, !in
+ - is, !is
+
+## Control flow
+ - if/else if/else
+ - when
+
+## Loops
+ - for/while
+ - Ranges
+
+## Functions
+ - Inline functions
+ - return@ expression
+ - Extension functions
+ - Infix functions
+
+## Classes
+ - Object creation
+ - Getters/Setters
+ - Access modifiers
+ - Constructors: primary/secondary
+ - Inheritance
+ - Delegation
+ - Interfaces
+ - Sealed classes
+ - Data classes
+
+## Key classes
+ - Pair
+ - Triple
+ - Others ?
+
+## Scope functions
+ - let -> it/last value
+ - run -> this/last value
+ - with -> different form of run
+ - apply -> it/object
+ - also -> this/object
+
+## Cool scope functions like
+ - buildString
+ - buildList
+
+## Kotlin standard library
+ - Working with collections
+
+## Other
+- Building your own DSLs
+- Mockito kotlin
+- Implementing the fluent builder pattern with object mother
+
+## Coroutine API
+
+## Clean code examples
