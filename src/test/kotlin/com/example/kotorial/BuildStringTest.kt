@@ -28,11 +28,13 @@ class BuildStringTest {
 
         buildString {
 
-            for (line in lines) {
-                appendLine("Info -> $line")
+            lines.forEach {
+                appendLine("Info -> $it")
             }
 
-        }.lines().forEach { println(it) }
+        }.lines().forEach {
+            println(it)
+        }
     }
 
     @Test
@@ -58,5 +60,10 @@ class BuildStringTest {
             add(1)
         }
         println(l)
+
+        buildMap {
+           put("abc", 2)
+           put("add", 3)
+        }.also { println(it) }
     }
 }

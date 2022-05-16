@@ -18,22 +18,25 @@
  - Ranges
 
 ## Functions
+ - Function types: ordinary, infix, inline
  - Inline functions
  - return@ expression
  - Extension functions
  - Infix functions
 
 ## Classes
- - Object creation
+## Object creation
+ - Constructors: primary, secondary
+ - Defining fields
  - Getters/Setters
  - Access modifiers
- - Constructors: primary/secondary
  - Inheritance
  - Delegation
  - Interfaces
  - Sealed classes
  - Data classes
  - operator keyword
+ - Any class methods
 
 ## Key classes
  - Pair
